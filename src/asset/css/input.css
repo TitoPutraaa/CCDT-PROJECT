@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@plugin "flowbite/plugin";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* COLOR PALLETE */
+@theme {
+  --color-primary: #0db75f;
+  --color-dark: #222222;
+  --color-textdark: #dfe0fe;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+      font-family: "Montserrat", sans-serif ;
+}
+
+/* scroll bar begin */
+body::-webkit-scrollbar {
+  width: 1.5px;
+}
+body::-webkit-scrollbar-track {
+  background: #e8e8e8;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-dark);
+}
+.dark body::-webkit-scrollbar-track {
+  background: #252525; /* Contoh warna dark mode untuk track */
+}
+
+.dark body::-webkit-scrollbar-thumb {
+  background-color: #64748b; /* Contoh warna dark mode untuk thumb */
+}
+
+/* scroll bar end */
