@@ -7,6 +7,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-amber-200: oklch(92.4% 0.12 95.746);
     --color-blue-500: oklch(62.3% 0.214 259.815);
     --color-blue-600: oklch(54.6% 0.245 262.881);
     --color-blue-700: oklch(48.8% 0.243 264.376);
@@ -795,6 +796,9 @@
   .fixed {
     position: fixed;
   }
+  .top-0 {
+    top: calc(var(--spacing) * 0);
+  }
   .top-3 {
     top: calc(var(--spacing) * 3);
   }
@@ -819,11 +823,11 @@
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
-  .mt-5 {
-    margin-top: calc(var(--spacing) * 5);
+  .mt-15 {
+    margin-top: calc(var(--spacing) * 15);
   }
-  .mt-10 {
-    margin-top: calc(var(--spacing) * 10);
+  .mt-17 {
+    margin-top: calc(var(--spacing) * 17);
   }
   .apexcharts-canvas {
     & .apexcharts-tooltip {
@@ -1616,6 +1620,9 @@
       background-color: var(--color-gray-700);
     }
   }
+  .bg-amber-200 {
+    background-color: var(--color-amber-200);
+  }
   .bg-blue-700 {
     background-color: var(--color-blue-700);
   }
@@ -1714,12 +1721,6 @@
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
   }
-  .pt-10 {
-    padding-top: calc(var(--spacing) * 10);
-  }
-  .pt-20 {
-    padding-top: calc(var(--spacing) * 20);
-  }
   .search-filtering-row {
     .datatable-wrapper .datatable-container thead tr& th {
       padding-top: 0;
@@ -1753,10 +1754,6 @@
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
-  }
-  .text-4xl {
-    font-size: var(--text-4xl);
-    line-height: var(--tw-leading, var(--text-4xl--line-height));
   }
   .text-5xl {
     font-size: var(--text-5xl);
