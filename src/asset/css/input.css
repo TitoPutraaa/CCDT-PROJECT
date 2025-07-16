@@ -5,7 +5,7 @@
 
 /* COLOR PALLETE */
 @theme {
-  --color-primary: #0db75f;
+  --color-primary: oklch(72.3% 0.219 149.579);
   --color-dark: #222222;
   --color-textdark: #dfe0fe;
 }
