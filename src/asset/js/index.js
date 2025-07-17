@@ -9,3 +9,23 @@ toggle.addEventListener('click', () => {
         icon.setAttribute('name', 'moon');
     }
 });
+
+// scroll fixed navbar
+let navbar = document.querySelector('nav');
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 0) {
+        navbar.classList.add('bg-white', 'dark:bg-dark','outline-1', 'outline-gray-200', 'dark:outline-gray-700');
+        navbar.classList.remove('bg-transparent');
+    } else {
+        navbar.classList.remove('bg-white', 'dark:bg-dark','outline-1', 'outline-gray-200', 'dark:outline-gray-700');
+        navbar.classList.add('bg-transparent');
+    }
+});
+
+// animasi type
+const typed = new Typed("#create", {
+  strings: ["EXPERIENCE", "WORLDS", "STORIES","ADVENTURES","LEGENDS"],
+  typeSpeed: 100, 
+  backSpeed: 100, 
+  loop: true, 
+});
