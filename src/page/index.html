@@ -17,16 +17,15 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 
-<body class="bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white">
-
+<body class="bg-light text-gray-900 dark:bg-dark dark:text-white">
     <!-- navbar section begin -->
-<nav class="bg-white border-gray-200 z-50 top-0 fixed w-full dark:bg-gray-900">
+<nav class="z-50 top-0 fixed w-full bg-transparent transition-colors duration-300">
   <div class="flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="#"  data-aos="fade-right"  data-aos-duration="800" class="flex items-center space-x-3 rtl:space-x-reverse">
         <span class="self-center text-2xl font-bold whitespace-nowrap dark:text-white">HAZEN</span>
     </a>
     <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-     <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+     <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0  dark:border-gray-700">
     
      <li data-aos="fade-left"  data-aos-duration="1000" class="relative group">
       <a href="#hero" 
@@ -68,7 +67,9 @@
                 <h1 data-aos="fade-right"  data-aos-duration="1000">Beyond Code</h1>
                 <h1 data-aos="fade-right"  data-aos-duration="800">We Create</h1>
                 <h1 data-aos="fade-right"  data-aos-duration="600" 
-                    class="bg-white dark:bg-black text-black dark:text-white rounded-sm px-1 shadow-sm shadow-dark/50 dark:shadow-white/50">Experience</h1>
+                    class="bg-white dark:bg-black text-black dark:text-white rounded-sm pb-1 px-1 shadow-sm shadow-dark/50 dark:shadow-white/50">
+                    <span id="create"></span>
+                </h1>
             </div>
             <a href="#games" data-aos="fade-right"  data-aos-duration="400" 
                     class="w-full flex items-center justify-between mt-6 py-1 px-4 uppercase bg-primary rounded-sm">
@@ -93,7 +94,7 @@
 <!-- about section end-->
     
 <!-- footer begin -->
-<footer class="bg-white dark:bg-gray-900">
+<footer class="bg-white dark:bg-dark">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
@@ -103,13 +104,13 @@
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">community</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
+                          <a href="https://flowbite.com/" class="hover:underline">Discord</a>
                       </li>
                       <li>
-                          <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                          <a href="https://tailwindcss.com/" class="hover:underline">Forums</a>
                       </li>
                   </ul>
               </div>
@@ -120,7 +121,7 @@
                           <a href="#" class="hover:underline ">Email</a>
                       </li>
                       <li>
-                          <a href="#" class="hover:underline">Discord</a>
+                          <a href="#" class="hover:underline">Support Center</a>
                       </li>
                   </ul>
               </div>
