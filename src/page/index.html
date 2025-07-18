@@ -20,7 +20,7 @@
 <body class="bg-gray-100 text-gray-900 scroll-smooth dark:bg-gray-800 dark:text-white">
 
     <!-- navbar section begin -->
-<nav class="bg-white border-gray-200 z-50 top-0 fixed w-full dark:bg-gray-900">
+<nav class="bg-white z-50 top-0 fixed w-full border-b-2 border-primary dark:bg-gray-900">
   <div class="flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="#"  data-aos="fade-right"  data-aos-duration="800" class="flex items-center space-x-3 rtl:space-x-reverse">
         <span class="self-center text-2xl font-bold whitespace-nowrap dark:text-white">HAZEN</span>
@@ -36,7 +36,7 @@
     
     <li data-aos="fade-left" data-aos-duration="800" class="relative group">
       <a href="../page/about.html" 
-         class="block py-2 px-3 md:p-0 text-gray-900 dark:text-white transition-colors duration-300 hover:text-primary dark:hover:text-primary">About Us</a>
+         class="block py-2 px-3 md:p-0 text-gray-900 dark:text-white transition-colors duration-300 hover:text-primary dark:hover:text-primary">About</a>
       <span class="absolute bottom-0 left-0 h-[2px] w-0 bg-primary transition-all duration-300 group-hover:w-full"></span>
     </li>
     
@@ -47,8 +47,8 @@
     </li>
     
     <li  data-aos="fade-left"  data-aos-duration="400" class="relative group">
-      <a href="#" 
-         class="block py-2 px-3 md:p-0 text-gray-900 dark:text-white transition-colors duration-300 hover:text-primary dark:hover:text-primary">Our Principles</a>
+      <a href="#mission" 
+         class="block py-2 px-3 md:p-0 text-gray-900 dark:text-white transition-colors duration-300 hover:text-primary dark:hover:text-primary">Mission</a>
       <span class="absolute bottom-0 left-0 h-[2px] w-0 bg-primary transition-all duration-300 group-hover:w-full"></span>
     </li>
     <li data-aos="fade-left"  data-aos-duration="600">
@@ -88,8 +88,8 @@
 <!-- about section begin-->
 <div aos-init a id="about-us" class="w-full h-screen flex flex-row-reverse justify-around items-center bg-bglight dark:bg-bgdark">
     <div class="flex flex-col justify-center w-1/3 ">
-        <div class="flex flex-col items-center text-5xl text-left text-black dark:text-white font-extrabold uppercase">
-            <h1 data-aos="fade-left"  data-aos-duration="1000" class= "mb-5">ABOUT HAZEN</h1>
+        <div class="flex flex-col items-center">
+            <h1 data-aos="fade-left"  data-aos-duration="1000" class= "mb-5 text-5xl text-left text-black dark:text-white font-extrabold uppercase">ABOUT HAZEN</h1>
             <p data-aos="fade-left"  data-aos-duration="800" class=" text-center text-2xl font-semibold">Hazen is Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, labore saepe. Facilis cupiditate ratione doloribus.</p>
         </div>
         
@@ -104,21 +104,27 @@
         </div>
     </div>
 
-    <div data-aos="zoom-in-down"  data-aos-duration="2000" class="w-2xl relative ">
+    <div data-aos="zoom-in-down"  data-aos-duration="2000" class="w-xl relative ">
             <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="absolute -bottom-80">
                 <path class="fill-[#1b2330] dark:fill-[#7a5ec2]" d="M40.2,-55.9C54.3,-45.1,69.4,-36.3,71.1,-24.6C72.7,-13,60.9,1.5,55.2,17.7C49.6,33.9,50.1,51.8,41.9,54.1C33.8,56.4,16.9,43.2,4.8,36.5C-7.3,29.9,
                 -14.5,29.9,-26.9,29C-39.3,28,-56.9,26.1,-68.6,16.2C-80.2,6.2,-86,-11.8,-77.7,-21.5C-69.4,-31.3,-47.2,-32.8,-31.9,-43.1C-16.6,-53.5,-8.3,-72.7,2.4,-76C13.1,-79.3,26.1,
                 -66.6,40.2,-55.9Z" transform="translate(100 100)"/>
             </svg>
-        <div class="absolute left-16 -bottom-12 text-9xl font-bold whitespace-nowrap text-bglight dark:text-bgdark">
-            <h2>HAZEN</h2>
+        <div class="absolute left-10 -bottom-12 text-9xl font-bold whitespace-nowrap text-bglight dark:text-bgdark">
+            <h2 class=" text-shadow-lg/60 text-shadow-[#1b2330] dark:text-shadow-[#7a5ec2] dark:text-shadow-lg/60">HAZEN</h2>
         </div>
     </div>
 </div>
-
-
 <!-- about section end-->
-    
+
+<!-- Mission section start -->
+ <div id="mission" class="w-full h-[36rem] bg-no-repeat bg-cover bg-bottom bg-bglight bg-[url('/src/asset/img/mis.png')] dark:bg-[url('/src/asset/img/mus.png')] dark:bg-bgdark" >
+    <div class="h-[36rem]  m-auto flex flex-col justify-center items-center ">
+        <h1 class=" text-5xl text-black dark:text-white font-extrabold uppercase text-shadow-lg/60 text-shadow-black dark:text-shadow-white">Our Mission</h1>
+        <p class="text-center mt-3 text-shadow-lg/100 text-shadow-white dark:text-shadow-lg/40">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque nam quam maiores error obcaecati dolore praesentium molestias suscipit quo deleniti?</p>
+ </div>
+<!-- Mission section end -->
+
 <!-- footer begin -->
 <footer class="bg-white dark:bg-gray-900">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -203,7 +209,7 @@
       </div>
     </div>
 </footer>
-  <!-- footer end -->
+<!-- footer end -->
     
 <!-- SCRIPT PANGGIL SEMUA KEBUTUHAN -->
 
