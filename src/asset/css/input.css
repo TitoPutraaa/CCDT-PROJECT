@@ -9,6 +9,8 @@
   --color-dark:#09080d;
   --color-light:#f0f0f0;
   --color-textdark: #dfe0fe;
+  --color-bglight : #f0f2f1;
+  --color-bgdark : #0a090e;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
