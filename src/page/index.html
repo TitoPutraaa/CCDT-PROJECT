@@ -21,43 +21,44 @@
 
     <!-- navbar section begin -->
 <nav class="bg-white z-50 top-0 fixed w-full border-b-2 border-primary dark:bg-gray-900">
-  <div class="flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="#"  data-aos="fade-right"  data-aos-duration="800" class="flex items-center space-x-3 rtl:space-x-reverse">
+    <div class="flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="#"  data-aos="fade-right"  data-aos-duration="800" class="flex items-center space-x-3 rtl:space-x-reverse">
         <span class="self-center text-2xl font-bold whitespace-nowrap dark:text-white">HAZEN</span>
     </a>
     <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-     <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-    
-     <li data-aos="fade-left"  data-aos-duration="1000" class="relative group">
-      <a href="#hero" 
-         class="block py-2 px-3 md:p-0 text-gray-900 dark:text-white transition-colors duration-300 hover:text-primary dark:hover:text-primary">Home</a>
-      <span class="absolute bottom-0 left-0 h-[2px] w-0 bg-primary transition-all duration-300 group-hover:w-full"></span>
-    </li>
-    
-    <li data-aos="fade-left" data-aos-duration="800" class="relative group">
-      <a href="../page/about.html" 
-         class="block py-2 px-3 md:p-0 text-gray-900 dark:text-white transition-colors duration-300 hover:text-primary dark:hover:text-primary">About</a>
-      <span class="absolute bottom-0 left-0 h-[2px] w-0 bg-primary transition-all duration-300 group-hover:w-full"></span>
-    </li>
-    
-    <li  data-aos="fade-left"  data-aos-duration="600" class="relative group">
-      <a href="#games" 
-         class="block py-2 px-3 md:p-0 text-gray-900 dark:text-white transition-colors duration-300 hover:text-primary dark:hover:text-primary">Games</a>
-      <span class="absolute bottom-0 left-0 h-[2px] w-0 bg-primary transition-all duration-300 group-hover:w-full"></span>
-    </li>
-    
-    <li  data-aos="fade-left"  data-aos-duration="400" class="relative group">
-      <a href="#mission" 
-         class="block py-2 px-3 md:p-0 text-gray-900 dark:text-white transition-colors duration-300 hover:text-primary dark:hover:text-primary">Mission</a>
-      <span class="absolute bottom-0 left-0 h-[2px] w-0 bg-primary transition-all duration-300 group-hover:w-full"></span>
-    </li>
-    <li data-aos="fade-left"  data-aos-duration="600">
-        <!-- dark mode button -->
-        <button type="button" id="dark-toggle" class="absolute top-[-4px] right-[-5px] text-3xl cursor-pointer rotate-y-180 "> <ion-icon name="moon"></ion-icon> </button>
-    </li>
-  </ul>
+
+    <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+    <!-- dark mode button -->
+        <li data-aos="fade-left"  data-aos-duration="600">
+            <button type="button" id="dark-toggle" class="absolute top-[-4px] right-[-5px] text-3xl cursor-pointer rotate-y-180 "> <ion-icon name="moon"></ion-icon> </button>
+        </li>
+
+        <li data-aos="fade-left"  data-aos-duration="1000" class="relative group">
+        <a href="#hero" 
+            class="block py-2 px-3 md:p-0 text-gray-900 dark:text-white transition-colors duration-300 hover:text-primary dark:hover:text-primary">Home</a>
+        <span class="absolute bottom-0 left-0 h-[2px] w-0 bg-primary transition-all duration-300 group-hover:w-full"></span>
+        </li>
+        
+        <li data-aos="fade-left" data-aos-duration="800" class="relative group">
+        <a href="../page/about.html" 
+            class="block py-2 px-3 md:p-0 text-gray-900 dark:text-white transition-colors duration-300 hover:text-primary dark:hover:text-primary">About</a>
+        <span class="absolute bottom-0 left-0 h-[2px] w-0 bg-primary transition-all duration-300 group-hover:w-full"></span>
+        </li>
+        
+        <li  data-aos="fade-left"  data-aos-duration="600" class="relative group">
+        <a href="#games" 
+            class="block py-2 px-3 md:p-0 text-gray-900 dark:text-white transition-colors duration-300 hover:text-primary dark:hover:text-primary">Games</a>
+        <span class="absolute bottom-0 left-0 h-[2px] w-0 bg-primary transition-all duration-300 group-hover:w-full"></span>
+        </li>
+        
+        <li  data-aos="fade-left"  data-aos-duration="400" class="relative group">
+        <a href="#mission" 
+            class="block py-2 px-3 md:p-0 text-gray-900 dark:text-white transition-colors duration-300 hover:text-primary dark:hover:text-primary">Mission</a>
+        <span class="absolute bottom-0 left-0 h-[2px] w-0 bg-primary transition-all duration-300 group-hover:w-full"></span>
+        </li>
+    </ul>
     </div>
-  </div>
+    </div>
 </nav>
 
 <!-- hero section begin-->
@@ -118,10 +119,10 @@
 <!-- about section end-->
 
 <!-- Mission section start -->
- <div id="mission" class="w-full h-[36rem] bg-no-repeat bg-cover bg-bottom bg-bglight bg-[url('/src/asset/img/mis.png')] dark:bg-[url('/src/asset/img/mus.png')] dark:bg-bgdark" >
-    <div class="h-[36rem]  m-auto flex flex-col justify-center items-center ">
-        <h1 class=" text-5xl text-black dark:text-white font-extrabold uppercase text-shadow-lg/60 text-shadow-black dark:text-shadow-white">Our Mission</h1>
-        <p class="text-center mt-3 text-shadow-lg/100 text-shadow-white dark:text-shadow-lg/40">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque nam quam maiores error obcaecati dolore praesentium molestias suscipit quo deleniti?</p>
+ <div id="mission" class="w-full h-[36rem] bg-no-repeat bg-cover bg-bottom bg-bglight bg-[url('/src/asset/img/mis_light.png')] dark:bg-[url('/src/asset/img/mis_dark.png')] dark:bg-bgdark" >
+    <div data-aos="zoom-in-up"  data-aos-duration="1000" class="h-[36rem]  m-auto flex flex-col justify-center items-center ">
+        <h1 class=" text-7xl text-black dark:text-white font-extrabold uppercase text-shadow-lg/60 text-shadow-white dark:text-shadow-white">Our Mission</h1>
+        <p class="text-3xl text-center mt-3 text-shadow-lg/100 text-shadow-white dark:text-shadow-lg/40">To create thrilling experiences for players around the world</p>
  </div>
 <!-- Mission section end -->
 
