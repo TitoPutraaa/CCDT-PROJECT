@@ -14,10 +14,10 @@ toggle.addEventListener('click', () => {
 let navbar = document.querySelector('nav');
 window.addEventListener('scroll', () => {
     if (window.scrollY > 0) {
-        navbar.classList.add('bg-white', 'dark:bg-dark','outline-1', 'outline-gray-200', 'dark:outline-gray-700');
+        navbar.classList.add('bg-white/20', 'dark:bg-dark/20','outline-1', 'outline-gray-200', 'dark:outline-gray-700');
         navbar.classList.remove('bg-transparent');
     } else {
-        navbar.classList.remove('bg-white', 'dark:bg-dark','outline-1', 'outline-gray-200', 'dark:outline-gray-700');
+        navbar.classList.remove('bg-white/20', 'dark:bg-dark/20','outline-1', 'outline-gray-200', 'dark:outline-gray-700');
         navbar.classList.add('bg-transparent');
     }
 });
