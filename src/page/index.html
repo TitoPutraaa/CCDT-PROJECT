@@ -16,10 +16,48 @@
     <!-- data aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
-
-
+<body class="bg-light text-gray-900 dark:bg-dark dark:text-white overflow-x-hidden">
+    <!-- navbar section begin -->
+<nav class="z-50 top-0 fixed w-full bg-transparent transition-colors duration-300">
+  <div class="flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="#"  data-aos="fade-right"  data-aos-duration="800" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <span class="self-center text-2xl font-bold whitespace-nowrap dark:text-white">HAZEN</span>
+    </a>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+     <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0  dark:border-gray-700">
+    
+     <li data-aos="fade-left"  data-aos-duration="1000" class="relative group">
+      <a href="#hero" 
+         class="block py-2 px-3 md:p-0 text-gray-900 dark:text-white transition-colors duration-300 hover:text-primary dark:hover:text-primary">Home</a>
+      <span class="absolute bottom-0 left-0 h-[2px] w-0 bg-primary transition-all duration-300 group-hover:w-full"></span>
+    </li>
+    
+    <li data-aos="fade-left" data-aos-duration="800" class="relative group">
+      <a href="#about-us" 
+         class="block py-2 px-3 md:p-0 text-gray-900 dark:text-white transition-colors duration-300 hover:text-primary dark:hover:text-primary">About Us</a>
+      <span class="absolute bottom-0 left-0 h-[2px] w-0 bg-primary transition-all duration-300 group-hover:w-full"></span>
+    </li>
+    
+    <li  data-aos="fade-left"  data-aos-duration="600" class="relative group">
+      <a href="#games" 
+         class="block py-2 px-3 md:p-0 text-gray-900 dark:text-white transition-colors duration-300 hover:text-primary dark:hover:text-primary">Games</a>
+      <span class="absolute bottom-0 left-0 h-[2px] w-0 bg-primary transition-all duration-300 group-hover:w-full"></span>
+    </li>
+    
+    <li  data-aos="fade-left"  data-aos-duration="400" class="relative group">
+      <a href="#" 
+         class="block py-2 px-3 md:p-0 text-gray-900 dark:text-white transition-colors duration-300 hover:text-primary dark:hover:text-primary">Our Principles</a>
+      <span class="absolute bottom-0 left-0 h-[2px] w-0 bg-primary transition-all duration-300 group-hover:w-full"></span>
+    </li>
+    <li data-aos="fade-left"  data-aos-duration="600">
+        <!-- dark mode button -->
+        <button type="button" id="dark-toggle" class="absolute top-[-4px] right-[-5px] text-3xl cursor-pointer rotate-y-180 "> <ion-icon name="moon"></ion-icon> </button>
+    </li>
+  </ul>
     </div>
+  </div>
 </nav>
+    <!-- navbar section end -->
 
 <!-- hero section begin-->
 <div id="hero" class="hero-section w-full h-screen bg-no-repeat bg-cover bg-center bg-[url('/src/asset/img/hero-light.jpg')] dark:bg-[url('/src/asset/img/hero-dark.jpg')]">
